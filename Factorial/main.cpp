@@ -121,7 +121,7 @@ int maxValueIn(int arr[], const int n)
 	}
 	return max;
 }
-
+/*
 int[] shiftLeft(int arr[],const int n)
 {
 	int arr2[n];
@@ -142,3 +142,4 @@ int[] shiftRight(int arr[], const int n)
 	}
 	return arr2[n];
 }
+*/
