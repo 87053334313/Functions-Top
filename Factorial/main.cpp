@@ -4,13 +4,21 @@ using namespace std;
 
 
 int Power(int x, int n);
-
+double Power(double x, double n);
 int Factorial(int a);
 void main() 
 {
-	cout<<Power(3, 3);
+	cout<<Power(9.0, 0.5);
 }
-
+double Factorial(double a) 
+{
+	double rez = 1;
+	for (int i = 1; i <= a; i++)
+	{
+		rez = rez * i;
+	}
+	return rez;
+}
 int Factorial(int a) 
 {
 	int rez = 1;
@@ -21,6 +29,11 @@ int Factorial(int a)
 	return rez;
 }
 
+double Power(double x, double n)
+{
+	double rez = pow(x,n);
+	return rez;
+}
 int Power(int x,int n)
 {
 	int rez = x;
